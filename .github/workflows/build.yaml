@@ -92,8 +92,8 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         tags: |
-          iqbal-lab/viridian_workflow:latest
-          iqbal-lab/viridian_workflow:${{env.RELEASE_VERSION}}
+          jezsw/viridian_workflow:latest
+          jezsw/viridian_workflow:${{env.RELEASE_VERSION}}
         push: true
         no-cache: true
     -
